@@ -1,0 +1,28 @@
+{
+  "name": "simplifed-grunt",
+  "version": "1.0.0",
+  "description": "As the size of the project grows, Gruntfile becomes very huge to maintain. Goal is to modulize Gruntfile in such a way that's easier to maintain.",
+  "author": "Jerry Lau",
+  "license": "MIT",
+  "main": "",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-auto-install": "^0.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-include-replace": "^5.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-shell": "^2.1.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2",
+    "path": "^0.12.7"
+  }
+}
