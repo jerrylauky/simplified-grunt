@@ -1,7 +1,7 @@
 module.exports = {
   oscarApp: {
     src: 'views/**/**.html',
-    dest: 'js/app.templates.js',
+    dest: 'scripts/js/app.templates.js',
     options: {
       htmlmin: {
         collapseWhitespace: true,

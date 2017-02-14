@@ -9,6 +9,7 @@ module.exports = {
   },
   dist: {
     files: {
+      'scripts/js/app.min.js': ['app.js', 'scripts/js/app.templates.js']
     }
   },
   components: {

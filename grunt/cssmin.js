@@ -4,11 +4,11 @@ module.exports = {
     shorthandCompacting: false,
     roundingPrecision: -1,
     rebase: true,
-    rebaseTo: './css'
+    rebaseTo: './scripts/css'
   },
   target: {
     files: {
-      'css/style.min.css': ['css/style.css']
+      'scripts/css/style.min.css': ['assets/css/style.css']
     }
   }
 };

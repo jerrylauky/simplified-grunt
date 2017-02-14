@@ -1,0 +1,14 @@
+{
+  "name": "simplified-grunt",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jerrylauky/simplified-grunt",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.x"
+  },
+  "resolutions": {
+    "angular": "~1.5.x"
+  }
+}

@@ -1,24 +1,14 @@
-/* Copyright (C) Jerry Lau - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited.
- * Proprietary and confidential.
- *
- * Written by Jerry Lau <jerrylauky@gmail.com>, January 18, 2017
- */
-
 // data to be used in each grunt task
 var data = {
     LIVERELOAD_PORT: 12345,
+    SERVER_DEV_PORT: 9000,
+    SERVER_TEST_PORT: 9001,
 
     scripts: {
         prod: {
             js: [
                 'scripts/js/plugins.min.js',
-                'scripts/js/app.min.js',
-                'scripts/js/models.min.js',
-                'scripts/js/services.min.js',
-                'scripts/js/controllers.min.js',
-                'scripts/js/directives.min.js',
-                'scripts/js/filters.min.js'
+                'scripts/js/app.min.js'
             ],
             css: [
                 'scripts/css/core.min.css',
