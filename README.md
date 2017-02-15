@@ -15,16 +15,19 @@ The following tasks are completed:
 ##Installation
 
 ```
-user-abc$> mkdir simplified-grunt && cd simplified-grunt && git clone <this-repo-here>.git .
+jerrylauky$> mkdir simplified-grunt && cd simplified-grunt && git clone <this-repo-here>.git .
 
-user-abc$> npm install && bower install  // install dependencies
+jerrylauky$> npm install && bower install  // install dependencies
+
 ```
 
 Run App:
 
 ```
-user-abc$> grunt dev                     // run app
-user-abc$> grunt prod:quick              // build with file compression and run app
+jerrylauky$> grunt dev                     // run app
+
+jerrylauky$> grunt prod:quick              // build with file compression and run app
+
 ```
 
 Feel free to leave comments to let me know if there's anything else I can improve on this.
