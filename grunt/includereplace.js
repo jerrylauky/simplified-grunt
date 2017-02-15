@@ -2,7 +2,7 @@ module.exports = {
   js: {
     options: {
       globals: {
-        jsScripts: '<%= getScriptTagFromFiles(scripts.prod.js, getCurrentUnixTimeStamp())%>'
+        jsScripts: '<%= filesToHTML(scripts.prod.js, getCurrentUnixTimeStamp())%>'
       }
     },
     src: '<%= scripts.shared.index.original %>',
@@ -13,7 +13,7 @@ module.exports = {
   css: {
     options: {
       globals: {
-        cssScripts: '<%= getScriptTagFromFiles(scripts.prod.css, getCurrentUnixTimeStamp())%>'
+        cssScripts: '<%= filesToHTML(scripts.prod.css, getCurrentUnixTimeStamp())%>'
       }
     },
     src: '<%= scripts.shared.index.original %>',
