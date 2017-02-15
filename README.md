@@ -17,16 +17,14 @@ The following tasks are completed:
 ```
 user-abc$> mkdir simplified-grunt && cd simplified-grunt && git clone <this-repo-here>.git .
 
-// install all dependencies
-user-abc$> npm install
-user-abc$> bower install
+user-abc$> npm install && bower install  // install dependencies
 ```
 
 Run App:
 
 ```
-user-abc$> grunt dev           // to host app locally
-user-abc$> grunt prod:quick    // to build app with optimization and host app locally
+user-abc$> grunt dev                     // run app
+user-abc$> grunt prod:quick              // build with file compression and run app
 ```
 
 Feel free to leave comments to let me know if there's anything else I can improve on this.
