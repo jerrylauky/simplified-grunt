@@ -1,7 +1,10 @@
 #Simplified Grunt
 
+##Objective
+
 As the size of my work project grows exponentially within just a few months, so does the Gruntfile.  
-Evetually it became quite painful to maintain. So I took some of my spare time to split/reorganize grunt tasks based on an article I found (https://www.html5rocks.com/en/tutorials/tooling/supercharging-your-gruntfile/).
+Evetually it became quite painful to maintain. So my goal was to improve Gruntfile for maintainability. 
+I took some of my spare time to split/reorganize grunt tasks based on an article I found (https://www.html5rocks.com/en/tutorials/tooling/supercharging-your-gruntfile/).
 
 The following tasks are completed:
 * Autoload grunt tasks using [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)
@@ -14,20 +17,30 @@ The following tasks are completed:
 
 ##Installation
 
+**Install repo**:
+
 ```
 jerrylauky$> mkdir simplified-grunt && cd simplified-grunt && git clone <this-repo-here>.git .
-
-jerrylauky$> npm install && bower install  // install dependencies
-
 ```
 
-Run App:
+**Install dependencies**:
 
 ```
-jerrylauky$> grunt dev                     // run app
-
-jerrylauky$> grunt prod:quick              // build with file compression and run app
-
+jerrylauky$> npm install && bower install
 ```
 
+**Run app**:
+
+```
+jerrylauky$> grunt dev
+```
+
+**Build with file compression and run app**:
+
+```
+jerrylauky$> grunt prod:quick
+```
+  
+  
+  
 Feel free to leave comments to let me know if there's anything else I can improve on this.
