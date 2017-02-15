@@ -7,12 +7,12 @@ var data = {
     scripts: {
         prod: {
             js: [
-                'scripts/js/plugins.min.js',
+                'scripts/js/core.min.js',
                 'scripts/js/app.min.js'
             ],
             css: [
                 'scripts/css/core.min.css',
-                'scripts/css/cms.min.css'
+                'scripts/css/style.min.css'
             ]
         },
         shared: {

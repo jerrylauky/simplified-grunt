@@ -3,17 +3,23 @@
   <head>
     <title>Simplified Grunt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- css -->
+    @@cssScripts
+    <!-- css -->
   </head>
   <body>
-    <p>Simplified Grunt</p>
+    <div class="container">
+      <h1>Simplified Grunt</h1>
+      <p>
+        As the size of the project grows, Gruntfile becomes very huge to maintain.
+        <br/>
+        Goal is to modulize Gruntfile in such a way that's easier to maintain.
+      </p>
+    </div>
 
-    <!-- core -->
-    <script src="bower_components/angular/angular.js"></script>
-    <!-- core -->
-
-    <!-- app -->
-    <script defer src="app.js"></script>
-    <!-- app -->
+    <!-- js -->
+    @@jsScripts
+    <!-- js -->
   </body>
 </html>

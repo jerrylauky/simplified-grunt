@@ -1,6 +1,6 @@
 module.exports = {
   oscarApp: {
-    src: 'views/**/**.html',
+    src: 'components/**/**.html',
     dest: 'scripts/js/app.templates.js',
     options: {
       htmlmin: {

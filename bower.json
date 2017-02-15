@@ -6,7 +6,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "~1.5.x"
+    "angular": "~1.5.x",
+    "angular-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7"
   },
   "resolutions": {
     "angular": "~1.5.x"

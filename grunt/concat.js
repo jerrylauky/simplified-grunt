@@ -18,7 +18,9 @@ module.exports = {
       banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n',
       separator: ';\n'
     },
-    src: [],
+    src: [
+      'bower_components/bootstrap/dist/css/bootstrap.min.css'
+    ],
     dest: 'scripts/css/core.min.css'
   },
   core: {
@@ -30,7 +32,10 @@ module.exports = {
       separator: ';\n'
     },
     src: [
-      'bower_components/angular/angular.min.js'
+      'bower_components/jquery/dist/jquery.min.js',
+      'bower_components/bootstrap/dist/js/bootstrap.min.js',
+      'bower_components/angular/angular.min.js',
+      'bower_components/angular-bootstrap/ui-bootstrap.min.js'
     ],
     dest: 'scripts/js/core.min.js'
   }

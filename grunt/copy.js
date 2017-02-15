@@ -9,6 +9,7 @@ module.exports = {
         './scripts/**',
         './assets/**',
         'index.html',
+        'app.js',
         'package.json',
 
         // excluding backups, generated files, test files, config files
