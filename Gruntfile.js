@@ -99,8 +99,11 @@ module.exports = function (grunt) {
     grunt.registerTask('build:dev', 'Build App Development', ['sass']);
     grunt.registerTask('build:quick', 'Build App with only preprocessors and compressors', ['sass', 'compress']);
 
+    // server
+    grunt.registerTask('server:dev:run', 'Run Dev Server', ['connect:devserver', 'watch:app']);
+
     // For dev
-    grunt.registerTask('dev', ['cleanup:dev', 'build:dev', 'connect:devserver', 'watch:app']);
+    grunt.registerTask('dev', ['cleanup:dev', 'build:dev', 'server:dev:run']);
 
     // In production
     grunt.registerTask('prod', 'Production Build', function () {
@@ -120,5 +123,5 @@ module.exports = function (grunt) {
     });
 
     // For testing, run to see if prod task works
-    grunt.registerTask('prod:quick', 'Automation Produnction Build Quick', ['cleanup', 'build:quick']);
+    grunt.registerTask('prod:quick', 'Automation Produnction Build Quick', ['cleanup', 'build:quick', 'server:dev:run']);
 };
