@@ -123,5 +123,5 @@ module.exports = function (grunt) {
     });
 
     // For testing, run to see if prod task works
-    grunt.registerTask('prod:quick', 'Automation Produnction Build Quick', ['cleanup', 'build:quick', 'server:dev:run']);
+    grunt.registerTask('prod:quick', 'Automate Production Build Quick', ['cleanup', 'build:quick', 'server:dev:run']);
 };
