@@ -1,6 +1,6 @@
-#Simplified Grunt
+# Simplified Grunt
 
-Objective
+## Objective
 
 As the size of my work project grows exponentially within just a few months, so does the Gruntfile.  
 Evetually it became quite painful to maintain. So my goal was to improve Gruntfile for maintainability. 
@@ -15,7 +15,7 @@ The following tasks are completed:
 * Break down the registerTasks into smaller chunks for flexibility
 * Rewrote some of the glob patterns for file paths to keep grunt tasks short
 
-Installation
+## Installation
 
 **Install repo**:
 
