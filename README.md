@@ -15,7 +15,7 @@ The following tasks are completed:
 * Break down the registerTasks into smaller chunks for flexibility
 * Rewrote some of the glob patterns for file paths to keep grunt tasks short
 
-**Note**: Most changes are made in **./grunt** directory
+**Note**: Most changes were made in **./grunt** directory
 
 ## Installation
 
