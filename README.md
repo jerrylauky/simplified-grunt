@@ -43,9 +43,11 @@ jerrylauky$> grunt prod:quick
   
   
   
-##TODOs:
+## TODOs
 
 * further update grunt so that it changes app configurations dynamically based on the environment specified
+
+  
   
   
 Feel free to leave comments to let me know if there's anything else I can improve on this.
